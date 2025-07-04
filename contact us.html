@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: pink;
+      margin: 0;
+      padding: 0;
+    }
+    .page-header {
+      background-color:pink;
+      padding: 20px;
+      text-align: center;}
+     .header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .logo {
+      font-size: 50px;
+      margin-right: 10px;
+    }
+    .title h1 h2 {      margin: 0;
+      font-size: 17px;
+    }
+    .title p {
+      margin: 7px 0 0;
+      font-size: 18px;
+    }
+    .header-links a {
+      margin:15px;
+      text-decoration: none;
+      color: blue;
+    }
+    .contact-container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+    .contact-info {
+      list-style-type: none;
+      padding: 0;
+    }
+    .contact-info li {
+      margin: 10px 0;
+      font-size: 18px;
+    }
+    .contact-form {
+      max-width: 600px;
+      margin: auto;
+      padding: 20px;
+      background-color: pink;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .contact-form div {
+      margin-bottom: 15px;
+    }
+    .contact-form label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    .contact-form input, .contact-form textarea {
+      width: calc(100% - 20px);
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    .contact-form button {
+      background-color: #ff69b4; /* Hot pink */
+      color: white;
+      padding: 10px 15px;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+    }
+    .contact-form button:hover {
+      background-color: #ff1493; /* Deep pink */
+    }
+    </style>      
+</head>
+<body>
+    <div class="page-header">
+    <div class="header">
+      <div class="logo">🍰</div>
+      <div class="title">
+        <h1>Sweet Sprinkles Bakery</h1>
+        <p>by Konyo</p>
+     </div>
+    </div>
+<nav class="header-links">
+      <a href="index.html">Home</a>
+      <a href="about us.html">About Us</a>
+      <a href="contact us.html">Contact</a>
+      <a href="menu.html">Menu</a>
+      <a href="place.html">Place Order</a>
+    </nav>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjpouKl2__-b2O1X0cFCEAQ3E72TbGkTeMaPXkcoF-NZHmDjS4hl9z9Iof-kJVC9ATqK4&usqp=CAU"alt=""width="270">
+
+    <h1>Contact Us </h1>
+    <ul class="contact-info">
+        <li><strong>Email:</strong>sweetsbakery@gmail.com</li>
+        <li><strong>Phone:</strong>+2479808978</li>
+        <li><strong>location:</strong>Online-based business in Nairobi. Ordere via the contacts above.</li>
+    </ul>
+    <p>we would love to hear from you.where placing an o order, inquiring about us!</p>
+    <h2>write a message</h2>
+    <form class="contact-form">
+        <div>
+        <label for="name">Name:</label>
+        <input type="text"id ="name"placeholder="Your name"required>
+        </div>
+        <div>
+         <label for="Email">Email:</label>
+        <input type="text"id ="Email"placeholder="Email"required>
+        </div>
+        <div>
+     <label for="name">Message:</label>
+        <textarea id="text" row="7"placeholder="Type message ..."required></textarea>
+<button type="submit">submit</button>       
+</div> 
+    </form>
+</body>
+</html>
